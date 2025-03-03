@@ -46,7 +46,7 @@ contract Will {
     }
 
 
-    function runOnlyDeceased() public onlyOwner{
+    function hasDeceased() public onlyOwner{
         deceased = true;
         payout();
     }
